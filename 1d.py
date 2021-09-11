@@ -1,0 +1,12 @@
+t=int(input())
+h=0
+m=0
+s=0
+while t>=3600:
+    t -= 3600
+    h += 1
+while t>=60:
+    t -= 60
+    m += 1
+s=t
+print(h,m,s,sep=":")
